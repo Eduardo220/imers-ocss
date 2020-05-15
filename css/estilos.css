@@ -10,6 +10,19 @@ body {
   font-family: Verdana;
 }
 
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width:  600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+
 header {
   align-items: center;
   display: flex;
@@ -19,7 +32,7 @@ header {
 
 .menu {
   background-color: rgba(196, 233, 255, 1);
-  font-size: 17px;
+
   position: fixed;
   width: 100vw;
   top: 0;
@@ -56,7 +69,10 @@ a:hover{
   padding: 3px;
   text-align: center;
   text-shadow: 2px 2px 4px white;
-  text-size-adjust: 50px;
+}
+
+.site-title {
+  font-size: 2em;
 }
 
 .site-subtitle {
@@ -66,18 +82,22 @@ a:hover{
   text-align: center;
 }
 
+.site-subtitle {
+  font-size: 1em;
+}
+
 .biografia {
   background-color: rgba(196, 233, 255, 0.9);
   border: 4px solid rgba(196, 233, 255, 1);
-  border-radius: 17px;
+  border-radius: 25px;
   box-shadow: -12px -10px 7px black;
   color: black;
   font-family: Arial;
-  font-size: 18px;
   height: 310px;
   margin: 20px;
   padding: 8px;
-  width: 250px;
+  text-align: justify;
+  width: 250px;  
 }
 
 section div{
