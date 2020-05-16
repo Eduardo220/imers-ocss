@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eduardo Weissheimer</title>
   <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fira+Code:wght@300&family=Katibeh&display=swap" rel="stylesheet">
 
 </head>
 
@@ -13,24 +14,35 @@
 m  <header>
     <nav class="menu">
       <ul>
-        <li><a href=#"><b>Sobre</b></a></li>
-        <li><a href="#"><b>Contato</b></a></li>
+        <li><a href=#"><b>SOBRE</b></a></li>
+        <li><a href="#"><b>CONTATO</b></a></li>
       </ul>
     </nav>
     <div>
-      <h1 class="site-title"> Eduardo Weissheimer</h1>
+      <h1 class="site-title">Eduardo Weissheimer</h1>
       <h3 class="site-subtitle"> [WEB DEVELOPER] [PRO PLAYER] </h3>
     </div>    
   </header>
-  <section>
-    <figcaption><b>-SOBRE-</b></figcaption>
-    <div>
+  <section class="Sobre">
+    <h2>-SOBRE-</h2>
+    <div class="grid">
     <figure>
       <img class="img-sobre" src="./img/eubio.jpg" alt="Sobre">
     </figure>
-    <h4 class="biografia"> Olá, eu sou o Eduardo Weissheimer, tenho 16 anos, sou um estudante do 2º ano do Ensino Médio,sou de Santa Maria - RS, e estou aprendendo alguns tipos de linguagens de programação com o curso Alura, como html e css principalmente, este é meu primeiro site, com o tempo receberá upgrades e ficará bom, curto jogar bastante, qualquer tipo de jogos, em especial fps, amo comer e dormir.</h4>;
+    <h4 class="biografia"> Olá, bem vindo ao meu site, eu sou o Eduardo Weissheimer, tenho 16 anos, sou um estudante do 2º ano do Ensino Médio, sou de Santa Maria - RS, e estou aprendendo alguns tipos de linguagens de programação com o Projeto Imersão Hipsters CSS da Alura , como html e css principalmente, este é meu primeiro site, com o tempo receberá upgrades e ficará melhor, curto jogar bastante, qualquer tipo de jogo, em especial fps, amo comer e dormir.</h4>;
     </div>
   </section>
+  <script>
+    const titulo = document.querySelector('header div h1');
+    function typeWriter(elemento){
+      const arrayTxt = elemento.innerHTML.split("");
+      elemento.innerHTML = "";
+      arrayTxt.forEach((letra, i) =>{
+        setTimeout(() =>{elemento.innerHTML += letra;}, 200*i)
+      });
+    }
+    typeWriter(titulo);
+  </script>
 
 </body>
 
