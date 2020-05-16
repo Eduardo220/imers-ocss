@@ -162,76 +162,70 @@ a:hover{
   text-align: justify;
 }
 
-.Sobre {
-  padding: 6px;
-  height: 100vh;
-}
-
 @media (min-width: 320px) {
-  .Sobre {
+  .sobre {
     font-size: 8px;
   }
 }
 
 @media (min-width: 350px) {
-  .Sobre {
+  .sobre {
     font-size: 12px;
   }
 }
 
 @media (min-width: 400px) {
-  .Sobre {
+  .sobre {
     font-size: 15px;
   }
 }
 
 @media (min-width: 600px) {
-  .Sobre  {
+  .sobre  {
     font-size: 20px;
   }
 }
 
 @media (min-width: 800px) {
-  .Sobre {
+  .sobre {
     font-size: 22px;
   }
 }
 
 @media (min-width: 1000px) {
-  .Sobre {
+  .sobre {
     font-size: 28px;
   }
 }
 
-.Sobre h2{
+.sobre {
   background-color: rgba(196, 233, 255, 0.9);
   border: 3px solid rgba(0 ,0 ,0 ,1);
   border-radius: 30px;
-  height: 50px;
-  margin: 1.8em;
-  padding: 6px;
-  text-align: center;
-  width: 20vw;
+  padding: 15px 92px;
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+  cursor: pointer;
 }
-
-.Sobre h2{
+.texto-sobre{
   color: black;
+  text-align: center;
   font-family: 'Katibeh', cursive;
-  font-size: 1.8em;
+  font-size: 32px;
 }
 
-.Sobre .grid {
+.grid {
   display: grid;
   gap: 1.5em;
 }
 
-.Sobre figure{
-  text-align: center;
-}
 .img-sobre {
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
 }
 
 @media (min-width: 320px) {
