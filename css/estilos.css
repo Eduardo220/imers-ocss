@@ -202,7 +202,7 @@ a:hover{
   background-color: rgba(196, 233, 255, 0.9);
   border: 3px solid rgba(0 ,0 ,0 ,1);
   border-radius: 30px;
-  padding: 15px 92px;
+  padding: 1em 3.5em;
   text-decoration: none;
   display: inline-block;
   margin: auto;
@@ -213,6 +213,44 @@ a:hover{
   text-align: center;
   font-family: 'Katibeh', cursive;
   font-size: 32px;
+}
+
+@media (min-width: 320px) {
+  .id, .style, .sobre, .texto-sobre {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 350px) {
+  .id, .style, .sobre, .texto-sobre {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 400px) {
+  .id, .style, .sobre, .texto-sobre {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  .id, .style, .sobre, .texto-sobre  {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 800px) {
+  .id, .style, .sobre, .texto-sobre {
+    font-size: 32px;
+    border-radius: 37px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .id, .style, .sobre, .texto-sobre {
+    font-size: 40px;
+    border-radius: 50px;
+  }
 }
 
 .grid {
